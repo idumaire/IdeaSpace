@@ -1,4 +1,5 @@
 DirectoryIndex index.php
+php_value memory_limit 256M
 
 <FilesMatch "artisan|composer.phar|composer.json|composer.lock|package.json|web.config|.env|gulpfile.js|laravel.log">
     Order Allow,Deny
